@@ -7,8 +7,8 @@ import torch
 from torch import nn
 import tqdm
 # --- my module ---
-from train import Task
-import utils
+from .train import Task
+from . import utils
 
 def get_args():
   parser = argparse.ArgumentParser()
