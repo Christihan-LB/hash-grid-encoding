@@ -10,7 +10,7 @@ import imageio
 import PIL.Image
 PIL.Image.MAX_IMAGE_PIXELS = 10000000000
 # --- 3rd party ---
-import utils
+from . import utils
 
 def get_args():
   parser = argparse.ArgumentParser()

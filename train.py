@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import imageio
 import tqdm
 # --- my module ---
-import utils
-import encoding
+from . import utils
+from . import encoding
 
 # --- datasets ---
 
